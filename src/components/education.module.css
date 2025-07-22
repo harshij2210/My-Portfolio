@@ -1,0 +1,204 @@
+.education {
+  padding: 5rem 1rem;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.8) 0%,
+    rgba(240, 253, 244, 0.6) 50%,
+    rgba(255, 255, 255, 0.8) 100%
+  );
+}
+
+.container {
+  max-width: 96rem;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #1f2937;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+  .title {
+    font-size: 3rem;
+  }
+}
+
+.underline {
+  width: 5rem;
+  height: 0.25rem;
+  background: linear-gradient(90deg, #16a34a 0%, #22c55e 100%);
+  margin: 0 auto;
+}
+
+.content {
+  display: grid;
+  gap: 3rem;
+}
+
+@media (min-width: 1024px) {
+  .content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+}
+
+.sectionTitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.sectionIcon {
+  color: #16a34a;
+}
+
+.educationList,
+.certificationsList {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.educationCard,
+.certificationCard {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.9) 0%,
+    rgba(240, 253, 244, 0.7) 50%,
+    rgba(255, 255, 255, 0.9) 100%
+  );
+  backdrop-filter: blur(12px);
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  border: 1px solid rgba(34, 197, 94, 0.2);
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.educationCard:hover,
+.certificationCard:hover {
+  border-color: rgba(34, 197, 94, 0.4);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 15px -3px rgba(34, 197, 94, 0.2);
+}
+
+.educationHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 0.75rem;
+}
+
+.degree {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.badges {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.currentBadge {
+  padding: 0.25rem 0.5rem;
+  background: linear-gradient(90deg, rgba(34, 197, 94, 0.1) 0%, rgba(74, 222, 128, 0.1) 100%);
+  color: #16a34a;
+  border-radius: 0.25rem;
+  font-size: 0.75rem;
+  border: 1px solid rgba(34, 197, 94, 0.3);
+}
+
+.cgpaBadge {
+  padding: 0.5rem 0.75rem;
+  background: linear-gradient(90deg, rgba(34, 197, 94, 0.1) 0%, rgba(74, 222, 128, 0.1) 100%);
+  color: #16a34a;
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border: 1px solid rgba(34, 197, 94, 0.3);
+}
+
+.institution {
+  color: #4b5563;
+  margin-bottom: 0.75rem;
+}
+
+.educationDetails {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: #6b7280;
+  font-size: 0.875rem;
+}
+
+.detail {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.certificationContent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.certificationInfo {
+  flex: 1;
+}
+
+.certificationTitle {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 0.25rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.trophyIcon {
+  color: #f59e0b;
+}
+
+.issuer {
+  color: #6b7280;
+  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+}
+
+.typeBadge {
+  padding: 0.25rem 0.5rem;
+  background: linear-gradient(90deg, rgba(34, 197, 94, 0.1) 0%, rgba(74, 222, 128, 0.1) 100%);
+  color: #16a34a;
+  border-radius: 0.25rem;
+  font-size: 0.75rem;
+  border: 1px solid rgba(34, 197, 94, 0.3);
+}
+.certificationLink {
+  color: inherit;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.certificationLink:hover {
+  text-decoration: underline;
+}

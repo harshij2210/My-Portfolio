@@ -1,0 +1,195 @@
+.contact {
+  padding: 5rem 1rem;
+}
+
+.container {
+  max-width: 96rem;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #1f2937;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+  .title {
+    font-size: 3rem;
+  }
+}
+
+.underline {
+  width: 5rem;
+  height: 0.25rem;
+  background: linear-gradient(90deg, #16a34a 0%, #22c55e 100%);
+  margin: 0 auto 1.5rem;
+}
+
+.subtitle {
+  font-size: 1.25rem;
+  color: #4b5563;
+  max-width: 32rem;
+  margin: 0 auto;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 1024px) {
+  .content {
+    justify-content: center;
+  }
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.infoCard {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.9) 0%,
+    rgba(240, 253, 244, 0.7) 50%,
+    rgba(255, 255, 255, 0.9) 100%
+  );
+  backdrop-filter: blur(12px);
+  border-radius: 0.75rem;
+  padding: 2rem;
+  border: 1px solid rgba(34, 197, 94, 0.2);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.cardTitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 1.5rem;
+}
+
+.contactList {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.contactItem {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.8) 0%, rgba(240, 253, 244, 0.8) 100%);
+  border-radius: 0.75rem;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid rgba(34, 197, 94, 0.1);
+}
+
+.contactItem:hover {
+  background: linear-gradient(90deg, rgba(34, 197, 94, 0.1) 0%, rgba(74, 222, 128, 0.1) 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 15px -3px rgba(34, 197, 94, 0.2);
+}
+
+.contactIcon {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: white;
+}
+
+.emailIcon {
+  background: linear-gradient(90deg, #dc2626 0%, #f97316 100%);
+}
+
+.phoneIcon {
+  background: linear-gradient(90deg, #16a34a 0%, #059669 100%);
+}
+
+.locationIcon {
+  background: linear-gradient(90deg, #2563eb 0%, #0891b2 100%);
+}
+
+.contactLabel {
+  color: #1f2937;
+  font-weight: 600;
+}
+
+.contactValue {
+  color: #6b7280;
+}
+
+.socialSection {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid rgba(34, 197, 94, 0.2);
+}
+
+.socialTitle {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 1rem;
+}
+
+.socialLinks {
+  display: flex;
+  gap: 1rem;
+}
+
+.socialLink {
+  width: 3rem;
+  height: 3rem;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.8) 0%, rgba(240, 253, 244, 0.8) 100%);
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #16a34a;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(34, 197, 94, 0.3);
+}
+
+.socialLink:hover {
+  color: #15803d;
+  background: linear-gradient(90deg, rgba(34, 197, 94, 0.1) 0%, rgba(74, 222, 128, 0.1) 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 15px -3px rgba(34, 197, 94, 0.3);
+}
+
+.socialIcon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 4rem;
+  padding-top: 2rem;
+  border-top: 1px solid rgba(34, 197, 94, 0.2);
+}
+
+.footerText {
+  color: #6b7280;
+}
