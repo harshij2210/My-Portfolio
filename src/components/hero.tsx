@@ -56,7 +56,7 @@ export default function Hero() {
             </motion.a>
           </div>
 
-          <motion.a whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} className={styles.downloadBtn} href="https://drive.google.com/file/d/1YFMCLxxlxMKyTFCMVHMjY-hm8Tn2xCgz/view?usp=drivesdk">
+          <motion.a whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} className={styles.downloadBtn} href="https://drive.google.com/file/d/1_1lYnMc4er0WDQ_gb95U9GULML0nj_oI/view?usp=drivesdk">
             <Download size={18} />
             <span>View Resume</span>
           </motion.a>

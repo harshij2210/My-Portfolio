@@ -12,10 +12,10 @@ const experiences = [
     period: "Jun 2025 – Present",
     type: "Full Time",
     achievements: [
-      "Built 4+ responsive, pixel-perfect UIs for the EngineerBabu platform using React, JS, HTML, and CSS",
-      "Improved load performance and UX across devices, reducing bounce rate by 20%",
-      "Collaborated with a team of 3 developers via GitLab CI/CD, maintaining 100% peer-reviewed code quality",
-      "Contributed to sprint planning, daily standups, and iterative feature delivery in an Agile environment",
+      "Engineered 4+ responsive, pixel-perfect UIs for the EngineerBabu platform using React, JS, HTML, and CSS.",
+      "Improved load performance and UX across devices, reducing bounce rate by 20%.",
+      "Collaborated with a team of 3 developers via GitLab CI/CD, maintaining 100% peer-reviewed code quality.",
+     "Participated in Agile ceremonies (sprint planning, daily standups) to ensure timely completion of 100% tasks.",
     ],
   },
   {
@@ -25,10 +25,10 @@ const experiences = [
     period: "Feb 2025 – Present",
     type: "Part Time",
     achievements: [
-      "Implemented eligibility-based job filtering using Sequelize and MySQL joins (CGPA, 10th/12th marks, branch, experience, backlogs)",
-      "Developed job detail view in React with routing, reusable components, and clean UI",
-      "Secured API integration with Axios interceptors and token-based authentication",
-      "Optimized backend responses by aggregating job, company, and application data into unified JSON",
+      "Created job board module enabling 500+ students to seamlessly browse job listings, view job details, and apply through a streamlined confirmation workflow.",
+      "Automated eligibility checks using Sequelize and MySQL, reducing manual checks by 80%.",
+      "Designed SQL schemas and integrated Sequelize ORM for efficient database querying and model management.",
+      "Led API design, requirement gathering, and database modeling within a team of 10 members , ensuring scalability and clean backend architecture.",
     ],
   },
 ]
