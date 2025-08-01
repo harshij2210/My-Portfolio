@@ -8,7 +8,7 @@ import styles from "./projects.module.css"
 
 const projects = [
   {
-    title: "URL Shortener",
+    title: "LinkShort - URL Shortener Application",
     description:
       "A full-stack URL shortener application with JWT authentication, URL analytics, and real-time click tracking. Built with the MERN stack and deployed on cloud platforms.",
     technologies: ["MongoDB", "Express.js", "React.js", "Node.js", "Nanoid", "JWT"],
